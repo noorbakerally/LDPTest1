@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>fr.emse.opensensingcity.LDPTest1</groupId>
+    <artifactId>LDPTest1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--packaging>war</packaging -->
+    <dependencies>
+        <dependency>
+            <groupId>org.ldp4j.framework</groupId>
+            <artifactId>ldp4j-server-core</artifactId>
+            <version>0.2.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.ldp4j.framework/ldp4j-application-api -->
+        <dependency>
+            <groupId>org.ldp4j.framework</groupId>
+            <artifactId>ldp4j-application-api</artifactId>
+            <version>0.2.1</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
